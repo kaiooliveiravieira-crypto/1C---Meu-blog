@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>stphen goat</title>
+        <style>
+            header {
+            background-color: #5392D6;
+            color: #f2ff00;
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 16px;
+            border: 5px solid #f5e213;
+            }
+            main {
+             background-color: #f4f5f7;
+            color: #5392D6; 
+            max-width: 800px;
+            margin: 0 auto;  
+            padding: 16px;
+            img {
+                width: 80px;
+                height: 80px;
+            }
+            }
+
+        </style>
+ </head>
+ <body>
+    <header>
+        <p> por: Kaio Felipe de Oliveira Vieira</p>
+        <img src="imagem.blog.png" alt="Stephen Curry em ilustração estilo cartoon com uniforme azul e amarelo do Golden State Warriors, driblando uma bola de basquete em uma quadra lotada.">
+        <h1>  QUEM É STPHEN CURRY? </h1>
+            <h1>aqui você vai aprender mais sobre NBA e pricipalmente sobre o jogador Stphen Curry</h1>
+     </header>
+    <main>
+        <h1>PARA INICIO DE CONVERSA</h1>
+        <P>Stephen Curry é um jogador profissional de basquete norte-americano, conhecido por revolucionar o esporte com sua habilidade excepcional nos arremessos de três pontos. Ele atua como armador e é considerado um dos maiores jogadores da história da NBA.</P>
+        <button>💖<span>0</span></button>
+        <button>👍<span>0</span></button>
+        <button>🧐<span>0</span></button>
+    </main>
+
+<script>
+    const botoes = document.querySelectorAll("button");
+    
+    botoes.forEach(botao => {
+        botao.addEventListener("click", botaoClicado);
+    });
+    
+    function botaoClicado(event) {
+        let texto = event.currentTarget.querySelector("span");
+        texto.textContent++;
+    }
+</script>
+</body>
+</html>
