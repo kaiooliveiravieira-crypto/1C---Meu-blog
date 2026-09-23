@@ -21,17 +21,9 @@
         <button>🧐<span>0</span></button>
     </main>
 
-<script>
-    const botoes = document.querySelectorAll("button");
-    
-    botoes.forEach(botao => {
-        botao.addEventListener("click", botaoClicado);
-    });
-    
-    function botaoClicado(event) {
-        let texto = event.currentTarget.querySelector("span");
-        texto.textContent++;
-    }
-</script>
+<script src="script.js"></script>
 </body>
+
+
+
 </html>
